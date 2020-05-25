@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular de contact</title>
+    <link rel="stylesheet" href="formular.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="flex-container">
+        <a href="index.html">
+            <img src="logo_ceai.png" alt="logo" class="logo"/>
+          </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME PAGE</a></li>
+            <li><a href="index.html#store">Ceaiuri</a></li>
+            <li><a href="index.html#locations">Unde ne găsești</a></li>
+            <li><a href="formular.html">Contact - comenzi</a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+
+    <div class="wrapper">
+        <div class="formular-contact">
+            <div class="input-fields">
+            <input type="text" class="input" placeholder="Nume și prenume">
+            <input type="text" class="input" placeholder="Adresa de email">
+            <input type="text" class="input" placeholder="Număr de telefon">
+            <select class="optiuni" name="ceai">
+                <option value="optiuni" disabled="disabled" selected="selected">Alege un ceai</option>
+                <option value="negru">Ceai negru</option>
+                <option value="verde">Ceai verde</option>
+                <option value="fructe">Ceai cu fructe</option>
+            </select>
+        </div>
+        <div class="mesaj">
+                <textarea placeholder="Mesaj"></textarea>
+                <button type="submit" onclick="window.location.reload();">Trimite</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
